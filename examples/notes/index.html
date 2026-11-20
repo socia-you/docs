@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+		/>
+		<title>Notes</title>
+
+		<!--
+      Fonts used by the app.
+        - Caveat              — headings, titles. Hand-drawn but clear.
+        - Architects Daughter — body text, note titles. Sketch-style,
+                                but readable at small sizes.
+        - JetBrains Mono      — code snippets only.
+
+      Small labels (dates, hints) use the system font — hand-drawn
+      fonts get too thin below ~14px.
+    -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!--
+      These meta tags are read by the `socia deploy` CLI to pre-fill
+      the publish form.
+    -->
+		<meta
+			name="description"
+			content="A quiet, hand-drawn notes app for Sphere."
+		/>
+		<meta name="category" content="productivity" />
+	</head>
+	<body>
+		<div id="app"></div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>

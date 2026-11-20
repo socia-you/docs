@@ -1,0 +1,18 @@
+{
+	"__context": {
+		"sphereUserId": "mock-user-abcdef",
+		"username": "mockuser",
+		"firstName": "Mock",
+		"lastName": "User",
+		"avatarUrl": null
+	},
+	"GET /users/me": {
+		"status": 200,
+		"body": {
+			"id": "mock-1",
+			"username": "mockuser",
+			"firstName": "Mock",
+			"lastName": "User"
+		}
+	}
+}
