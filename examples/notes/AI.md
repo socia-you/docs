@@ -4,6 +4,8 @@ The reference **Socia Sphere** mini app: a hand-drawn notebook with three pages,
 
 Docs: **https://socia.you/docs**
 
+Source: **https://github.com/socia-you/docs/tree/main/examples/notes**
+
 ## What a Socia mini app is
 
 A Svelte 5 + TypeScript web app inside the Socia messenger (`Sphere` section). The Flutter host serves it from a per-app loopback origin (`http://127.0.0.1:<port>/`), so each app gets isolated `localStorage`, `IndexedDB`, `window`. The host is reached via the bridge `window.socia`.

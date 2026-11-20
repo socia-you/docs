@@ -4,6 +4,8 @@ Hand-drawn notes app, the end-to-end example for the **Socia Sphere**. **Svelte 
 
 Tutorial: **https://socia.you/docs/tutorial/notes/01-what**
 
+Source: **https://github.com/socia-you/docs/tree/main/examples/notes**
+
 ## What it does
 
 - **List of notes** — cards with title, preview, relative date, newest first.
